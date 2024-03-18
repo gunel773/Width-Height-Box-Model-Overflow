@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* first div start */
+.first {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    text-align: center;
+    padding: 16rem 22px;
+    background-size: cover;
+    background-position: center;
+}
+
+.pagentry h1 {
+    font-size: 4.5rem;
+    margin-bottom: 5px;
+}
+
+.pagentry h3 {
+    font-size: 1.75rem;
+    margin-bottom: 70px;
+}
+
+.pagentry a {
+    padding: 1.25rem 2.5rem;
+    background-color: #17667F;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+}
+/* first div end */
+
+
+
+/* sidebar div start */
+.sidebar{
+    height: 350px;
+    text-align: center;
+    padding: 7rem 0;
+}
+.sidebar h2{
+    font-size: 2rem;
+}
+.sidebar p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 70px;
+}
+.sidebar .button{
+    padding: 1.25rem 2.5rem;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+}
+/* sidebar div end */
+
+
+
+
+/* service div start  */
+.service{
+    height: 510px;
+    background-color: #1D809F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service h5{
+    color: #ECB807;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.service h1{
+    color: white;
+    font-size: 40px;
+
+}
+.headline{
+    margin-top: 120px;
+}
+.boxes{
+    display: flex;
+}
+.box{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    height: 7rem;
+    width: 7rem;
+    margin-left: 40px;
+}
+.box img{
+    width: 40%;
+}
+.box i{
+    color: gray;
+    font-size: 30px;
+ }
+ .box span i{
+    color: #BCD9E2;
+    font-size: 15px;
+ }
+ .box span{
+    color: #BCD9E2;
+}
+.box .infopart{
+    margin-top: 10px;
+}
+h2{
+    margin-bottom: 5px;
+    color: white ;
+    margin-left: 50px;
+
+}
+/* service div end  */
+
+
+
+/* nextpage div start  */
+.nextpage{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+    background-size: cover;
+    background-position: center;
+   height: 730px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-next{
+   text-align: center;
+   margin-top: 100px;
+    width: 400px;
+    height: 400px;
+}
+.btn-next h1{
+    margin-bottom: 60px;
+    font-size: 50px;
+}
+.btn-next a{
+    padding: 1.25rem 2.5rem;
+    background-color: #17667F;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+}
+/* nextpage div end  */
+
+
+/* resistbuttons div start */
+.resistbuttons{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    background-color: #1D809F;
+    height: 350px;
+
+}
+.resistbuttons h1{
+    color: white;
+    margin-bottom: 45px;
+}
+.buttons-1-2{
+  display: flex;
+}
+.btn a{
+    padding: 1.25rem 2.5rem;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-left: 30px;
+}
+.btn1 a{
+
+    background-color: white;
+    color: black;
+}
+.btn2 a{
+    background-color: black;
+    color: white;
+}
+/* resistbuttons div end */
+
+
+/* footer div start  */
+.footer{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .circles i{
+    padding: 1.3rem 1.3rem;
+    background-color: #17667F;
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.footer .circles{
+    margin-bottom: 50px;
+}
+
+.source span{
+    color: #71777D;
+}
+/* footer div end  */
